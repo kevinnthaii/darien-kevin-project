@@ -1,0 +1,68 @@
+body{
+    background-color: #F5F3EC !important;
+}
+
+#description{
+    border: solid;
+    width: 400px;
+    /* height: 480px; */
+
+    margin-left: 2%;
+    margin-top: 5%;
+    margin-bottom: 30px;
+
+    padding: 10px;
+
+    background-color:rgb(200, 198, 198);
+    border-radius: 20px;
+}
+
+#descHere{
+    font-size: 25px;
+}
+
+#enterFood, #foodLabel{
+    /* margin-top: 20px; */
+    margin-left: 2%;
+    display: block;
+    font-size: 20px;
+}
+#enterFood{
+    margin-bottom: 2%;
+}
+
+#portion, #portionLabel{
+    display: block;
+    margin-left: 2%;
+    display: block;
+    font-size: 20px;
+}
+
+#portion{
+    margin-bottom: 2%;
+}
+
+.form-select{
+    width:25% !important;
+}
+.form-control{
+    width:25% !important;
+}
+
+
+#searchFood{
+    font-size:20px;
+    margin-left: 2%;
+}
+
+#foodInfo{
+    margin-left: 70%;
+    margin-right: 5%;
+    margin-top: -25%;
+    font-size: 20px;
+    padding: 15px;
+
+    border:solid;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
