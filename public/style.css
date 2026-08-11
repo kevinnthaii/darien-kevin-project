@@ -1,0 +1,89 @@
+body{
+    background-color: #F5F3EC;
+}
+
+
+header{
+    background-image: url('images/veggietitle.webp');
+    background-size:cover;
+    background-position: center center;
+    padding: 2ch 0 1ch 0;
+    opacity: 80%;
+}
+
+#home-title{
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    background-color: limegreen;
+    width: 45%;
+    margin-left: 60px;
+    padding: 10px 0px;
+    text-align: center;
+    color: rgb(79, 80, 82);
+}
+
+#nav-bar{
+    padding: 20px;
+}
+
+
+
+.overview{
+    width: 500px;
+    margin: 2%;
+    border: 5px solid gray;
+    background-color: gray;
+    padding: 35px;
+    border-radius: 20px;
+    
+}
+
+
+.overview-text{
+    font-size: 23px;
+}
+.col-3{
+    padding: 30px;
+}
+
+footer {  
+    padding: 15px;
+    background-color: black;
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: #999;
+
+}
+
+.nav-name{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.nav-button{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+
+.nav-link {
+    color: white;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.nav-link:active {
+    transform: scale(0.9);
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: white;
+}
