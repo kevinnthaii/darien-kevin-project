@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" href="nutritionStyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+
+    <script src="main.js" type="module"></script>
 </head>
 
 <!-- <body class="p-3 mb-2 bg-success-subtle text-success-emphasis"> -->
@@ -15,7 +17,7 @@
 
         <nav class="navbar navbar-expand-lg bg-success-subtle">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#">NutriTrack</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -36,7 +38,7 @@
 
 
         <h1 class="text-center">Nutrition Checker</h1>
-        <p id="description"> <b id="descHere">Description:</b> <br> Lorem ipsum dolor, si</p>
+        <p id="description"> <b id="descHere">Description:</b> <br> Search for a food, then click on one of the results to see its nutrtional info!</p>
 
 
 
@@ -44,7 +46,12 @@
             <label id="foodLabel" for="enterFood">Enter Food:</label>
             <input class="form-control" type="text" id="enterFood" placeholder="brown rice">
 
-            <label id="portionLabel" for="portion">Select Portion Size</label>
+
+            <!--Portion selecting-->
+            <label for="portionSize" id="portionSizeLabel">Portion Size:</label>
+            <input id="portionSize" type="number" placeholder="10">
+
+            <label id="portionLabel" for="portion">Select Unit of Measurement</label>
             <select class="form-select" id="portion">
                 <option value="default">Select an option</option>
                 <option value="oz">ounce (oz)</option>
@@ -53,22 +60,29 @@
                 <option value="tbsp">tablespoon</option>
             </select>
 
+            <!--Search food button-->
             <button class="btn btn-success" id="searchFood" type="submit">Search Food</button>
 
         </form>
 
-
+        <!--Nutritional info-->
         <div id="foodInfo">
-            <h3 class="text-center">Nutrition Summary</h3>
+            <h3 id="foodInfoHead" class="text-center">Nutrition Summary</h3>
+            <h4 class="text-center">(Per 100g)</h4>
             <ul class="list-group">
-                <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
-                <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
                 <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
                 <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
                 <li class="list-group-item">Lorem ipsum dolor sit amet.</li>
             </ul>
         </div>
 
+    <div id="results">
+        <h2 id="resultsHead">Food Results</h2>
+        <!-- Food results list here-->
+        <ul>
+            
+        </ul>
+    </div>
 
 </body>
 

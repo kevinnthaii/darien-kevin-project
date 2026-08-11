@@ -7,7 +7,7 @@ body{
     width: 400px;
     /* height: 480px; */
 
-    margin-left: 2%;
+    margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 30px;
 
@@ -21,25 +21,35 @@ body{
     font-size: 25px;
 }
 
-#enterFood, #foodLabel{
+#enterFood, #portion, #portionSize{
     /* margin-top: 20px; */
-    margin-left: 2%;
+    margin-left: 5%;
     display: block;
     font-size: 20px;
 }
+
+#foodLabel, #portionLabel, #portionSizeLabel{
+    display: block;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
 #enterFood{
     margin-bottom: 2%;
 }
 
-#portion, #portionLabel{
-    display: block;
-    margin-left: 2%;
-    display: block;
-    font-size: 20px;
-}
-
 #portion{
     margin-bottom: 2%;
+}
+
+#portionSize{
+    margin-bottom: 2%;
+}
+
+#searchFood{
+    font-size:30px;
+    margin-left: 5%;
+    padding: 5px;
 }
 
 .form-select{
@@ -50,19 +60,41 @@ body{
 }
 
 
-#searchFood{
-    font-size:20px;
-    margin-left: 2%;
-}
-
 #foodInfo{
-    margin-left: 70%;
+    margin-left: 65%;
     margin-right: 5%;
     margin-top: -25%;
-    font-size: 20px;
-    padding: 15px;
+    font-size: 25px;
+    padding: 25px;
 
     border:solid;
     background-color: whitesmoke;
     border-radius: 20px;
+}
+
+#foodInfoHead{
+    font-size: 30px;
+}
+
+#results{
+    margin-top: -25%;
+    margin-left: 42%;
+    width: 220px;
+
+    padding: 15px;
+    
+    border:solid;
+    border-radius: 20px;
+    background-color: lightgreen;
+}
+
+
+
+
+
+button {
+  transition: transform 0.2s ease-in-out; 
+}
+button:hover {
+  transform: scale(1.1); 
 }
