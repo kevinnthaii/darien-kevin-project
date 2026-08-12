@@ -88,13 +88,33 @@ body{
     background-color: lightgreen;
 }
 
-
-
-
-
 button {
   transition: transform 0.2s ease-in-out; 
 }
 button:hover {
   transform: scale(1.1); 
+}
+
+.nav-button{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white;
+    transition: 0.2s;
+}
+
+.nav-link:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.nav-link:active {
+    transform: scale(0.9);
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: white;
 }

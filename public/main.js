@@ -23,5 +23,6 @@ async function getFoodSearch(food){
 }
 
 //getFoodSearch('rice');
-console.log(getFoodSearch('brown rice'));
+//console.log(getFoodSearch('brown rice'));
+console.log(await getFoodSearch('rice'));
 
