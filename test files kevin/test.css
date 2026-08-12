@@ -1,0 +1,172 @@
+body {
+    background-color: #F5F3EC !important;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+
+    background-image: url(https://img.magnific.com/premium-vector/food-background-vegetables-seamless-pattern-healthy-eating-tomato-garlic-carrot-pepper_787654-45.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#description {
+    border: solid;
+    width: 400px;
+    /* height: 480px; */
+
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 30px;
+
+    padding: 10px;
+
+    background-color: rgb(200, 198, 198);
+    border-radius: 20px;
+}
+
+#descHere {
+    font-size: 25px;
+}
+
+#enterFood,
+#portion,
+#portionSize {
+    /* margin-top: 20px; */
+    margin-left: 5%;
+    display: block;
+    font-size: 20px;
+}
+
+#foodLabel,
+#portionLabel,
+#portionSizeLabel {
+    display: block;
+    margin-left: 5%;
+    font-size: 20px;
+}
+
+#enterFood {
+    margin-bottom: 2%;
+}
+
+#portion {
+    margin-bottom: 2%;
+}
+
+#portionSize {
+    margin-bottom: 2%;
+}
+
+#searchFood {
+    font-size: 30px;
+    margin-left: 5%;
+    padding: 5px;
+}
+
+.form-select {
+    width: 25% !important;
+}
+
+.form-control {
+    width: 25% !important;
+}
+
+
+#foodInfo {
+    margin-left: 65%;
+    margin-right: 5%;
+    margin-top: -25%;
+    font-size: 25px;
+    padding: 25px;
+
+    border: solid;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+#foodInfoHead {
+    font-size: 30px;
+}
+
+#results {
+    margin-top: -29%;
+    margin-left: 42%;
+    width: 220px;
+    padding: 15px;
+    border: solid;
+    border-radius: 20px;
+    background-color: lightgreen;
+
+    display: none;
+}
+
+
+button {
+    transition: transform 0.2s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* -------------------------------------------- */
+
+/* add class nav-name line 20 */
+/* add class nav-button line 29-30 */
+/* make NutriTrack Title header add this padding: 3ch 0 1ch 0; */
+
+header{
+    padding: 3ch 0 1ch 0
+}
+
+.nav-name{
+    font-size: 25px;
+    margin-left: 10px;
+    /* margin-right: 10px; */
+}
+
+.nav-button{
+    font-size: 20px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
+}
+
+.nav-link {
+    /* color: black; */
+    transition: 0.2s;
+    padding: 3ch 0 1ch 0;
+}
+
+.nav-link:hover {
+    color: lightgray;
+    text-decoration: underline;
+}
+
+.nav-link:active {
+    transform: scale(0.9);
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: white;
+}
+
+footer {  
+    margin-top: auto;
+    padding: 15px;
+    background-color: rgb(48, 46, 46);
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: #999;
+
+}
