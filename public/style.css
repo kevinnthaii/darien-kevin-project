@@ -1,13 +1,10 @@
 body{
     background-color: #F5F3EC;
     background-image: linear-gradient(rgba(245, 243, 236, 0.80), rgba(245, 243, 236, 0.80)),
-        url(images/foodback.jpg);
+         url(https://img.magnific.com/premium-vector/food-background-vegetables-seamless-pattern-healthy-eating-tomato-garlic-carrot-pepper_787654-45.jpg);
 }
 
-
 header{
-    background-size:cover;
-    background-position: center center;
     padding: 3ch 0 1ch 0;
     opacity: 80%;
 }
@@ -17,7 +14,6 @@ header{
     margin-top: 50px;
 }
 
-
 h2{
     text-align: center;
     border-bottom: 2px solid black;
@@ -25,12 +21,8 @@ h2{
     padding-bottom: 7px;
 }
 
-
-
 #nav-bar{
     padding: 20px;
-    
-    
 }
 
 .overview-button{
@@ -47,7 +39,6 @@ h2{
     
 }
 
-
 .overview-text{
     font-size: 22px;
 }
@@ -56,7 +47,7 @@ h2{
 }
 
 footer {  
-    margin-top: 100px;
+    margin-top: auto;
     padding: 15px;
     background-color: rgb(48, 46, 46);
     font-size: 0.9em;
@@ -89,5 +80,3 @@ footer {
     font-weight: bold;
     color: white;
 }
-
-
