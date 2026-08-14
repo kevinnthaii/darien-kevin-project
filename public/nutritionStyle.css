@@ -1,120 +1,108 @@
-body{
+body {
     background-color: #F5F3EC !important;
+    background-image: linear-gradient(rgba(245, 243, 236, 0.80), rgba(245, 243, 236, 0.80)),
+        url(https://img.magnific.com/premium-vector/food-background-vegetables-seamless-pattern-healthy-eating-tomato-garlic-carrot-pepper_787654-45.jpg);
 }
 
-#description{
+main {
+    margin: auto;
+    padding: 50px 40px;
+    min-height: calc(100vh - 154px);
+}
+
+.container>.row {
+    margin: 60px 0;
+    justify-content: space-between;
+    gap: 3ch;
+}
+
+#titleHead {
+    margin-top: 1%;
+}
+
+#description {
     border: solid;
-    width: 400px;
-    /* height: 480px; */
-
-    margin-left: 5%;
-    margin-top: 5%;
-    margin-bottom: 30px;
-
-    padding: 10px;
-
-    background-color:rgb(200, 198, 198);
+    padding: 20px;
+    margin: auto;
+    max-width: 600px;
+    text-align: center;
+    background-color: rgb(200, 198, 198);
     border-radius: 20px;
 }
 
-#descHere{
-    font-size: 25px;
-}
-
-#enterFood, #portion, #portionSize{
-    /* margin-top: 20px; */
-    margin-left: 5%;
+form label {
     display: block;
     font-size: 20px;
 }
 
-#foodLabel, #portionLabel, #portionSizeLabel{
-    display: block;
-    margin-left: 5%;
+form input {
+    width: 80%;
     font-size: 20px;
 }
 
-#enterFood{
-    margin-bottom: 2%;
-}
-
-#portion{
-    margin-bottom: 2%;
-}
-
-#portionSize{
-    margin-bottom: 2%;
-}
-
-#searchFood{
-    font-size:30px;
-    margin-left: 5%;
-    padding: 5px;
-}
-
-.form-select{
-    width:25% !important;
-}
-.form-control{
-    width:25% !important;
-}
-
-
-#foodInfo{
-    margin-left: 65%;
-    margin-right: 5%;
-    margin-top: -25%;
+#foodInfo {
+    width: 28%;
     font-size: 25px;
     padding: 25px;
-
-    border:solid;
+    border: solid;
     background-color: whitesmoke;
     border-radius: 20px;
 }
 
-#foodInfoHead{
+#foodInfoHead {
     font-size: 30px;
 }
 
-#results{
-    margin-top: -25%;
-    margin-left: 42%;
-    width: 220px;
-
+#results {
+    max-width: 220px;
     padding: 15px;
-    
-    border:solid;
+    border: solid;
     border-radius: 20px;
     background-color: lightgreen;
+
+    display: block;
 }
 
 button {
-  transition: transform 0.2s ease-in-out; 
-}
-button:hover {
-  transform: scale(1.1); 
+    transition: transform 0.2s ease-in-out;
 }
 
-.nav-button{
+button:hover {
+    transform: scale(1.1);
+}
+
+.navbar {
+    padding: 2ch 0;
+}
+
+.navbar-nav {
+    margin-left: 40px;
+}
+
+.nav-name {
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.nav-button {
     font-size: 20px;
     margin-right: 10px;
 }
 
-.nav-link {
-    color: white;
-    transition: 0.2s;
-}
-
 .nav-link:hover {
-    color: lightgray;
+    color: #198754;
     text-decoration: underline;
 }
 
-.nav-link:active {
-    transform: scale(0.9);
+.nav-link.active {
+    color: white;
 }
 
-.nav-link.active {
-    font-weight: bold;
-    color: white;
+footer {
+    margin-top: auto;
+    padding: 15px;
+    background-color: rgb(48, 46, 46);
+    font-weight: lighter;
+    font-size: 0.9em;
+    color: #999;
 }
